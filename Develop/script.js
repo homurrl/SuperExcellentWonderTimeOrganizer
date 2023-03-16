@@ -73,9 +73,9 @@ $(function () {
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
 
-
-  //var currentHour = dayjs().format("H")
-  //console.log(currentHour)
+  //Logs current hour to the console for later reference
+  var currentHour = dayjs().format("H")
+  console.log(currentHour)
 
   //if (currentHour=10){
   //$("#hour-10").attr("class","present")
