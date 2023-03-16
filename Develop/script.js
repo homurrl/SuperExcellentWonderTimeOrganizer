@@ -14,6 +14,14 @@ $(function () {
 
   //jquery to save and render data from local storage
 
+ $(".saveBtn").on("click",function(){
+    let text=$("#hour-9-a").val()
+    localStorage.setItem("hour9",text)
+  })
+
+  $("#hour-9-a").val(localStorage.getItem("hour9"))
+
+
   $(".saveBtn").on("click",function(){
     let text=$("#hour-10-a").val()
     localStorage.setItem("hour10",text)
@@ -21,9 +29,44 @@ $(function () {
 
   $("#hour-10-a").val(localStorage.getItem("hour10"))
 
- 
 
-  //
+  $(".saveBtn").on("click",function(){
+    let text=$("#hour-11-a").val()
+    localStorage.setItem("hour11",text)
+  })
+
+  $("#hour-11-a").val(localStorage.getItem("hour11"))
+
+
+  $(".saveBtn").on("click",function(){
+    let text=$("#hour-APPLYNUM-a").val()
+    localStorage.setItem("hourAPPLYNUMB",text)
+  })
+
+  $("#hour-APPLYNUM-a").val(localStorage.getItem("hourAPPLYNUM"))
+
+
+  $(".saveBtn").on("click",function(){
+    let text=$("#hour-APPLYNUM-a").val()
+    localStorage.setItem("hourAPPLYNUMB",text)
+  })
+
+  $("#hour-APPLYNUM-a").val(localStorage.getItem("hourAPPLYNUM"))
+
+
+  $(".saveBtn").on("click",function(){
+    let text=$("#hour-APPLYNUM-a").val()
+    localStorage.setItem("hourAPPLYNUMB",text)
+  })
+
+  $("#hour-APPLYNUM-a").val(localStorage.getItem("hourAPPLYNUM"))
+
+
+
+
+  
+
+ 
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
   // attribute of each time-block be used to conditionally add or remove the
@@ -31,12 +74,12 @@ $(function () {
   // current hour in 24-hour time?
 
 
-  var currentHour = dayjs().format("H")
-  console.log(currentHour)
+  //var currentHour = dayjs().format("H")
+  //console.log(currentHour)
 
-  if (currentHour=10){
-  $("#hour-10").attr("class","present")
-  }
+  //if (currentHour=10){
+  //$("#hour-10").attr("class","present")
+  //}
 
 
   //
