@@ -35,31 +35,87 @@ $(function () {
     localStorage.setItem("hour11",text)
   })
 
+
   $("#hour-11-a").val(localStorage.getItem("hour11"))
 
+  //Additional time block
 
   $(".saveBtn").on("click",function(){
-    let text=$("#hour-12").val()
+    let text=$("#hour-12-a").val()
     localStorage.setItem("hour12",text)
   })
 
-  $("#hour-12").val(localStorage.getItem("hour12"))
+  $("#hour-12-a").val(localStorage.getItem("hour12"))
 
 
   $(".saveBtn").on("click",function(){
-    let text=$("#hour-APPLYNUM-a").val()
-    localStorage.setItem("hourAPPLYNUMB",text)
+    let text=$("#hour-13-a").val()
+    localStorage.setItem("hour13",text)
   })
 
-  $("#hour-APPLYNUM-a").val(localStorage.getItem("hourAPPLYNUM"))
+  $("#hour-13-a").val(localStorage.getItem("hour13"))
 
 
   $(".saveBtn").on("click",function(){
-    let text=$("#hour-APPLYNUM-a").val()
-    localStorage.setItem("hourAPPLYNUMB",text)
+    let text=$("#hour-14-a").val()
+    localStorage.setItem("hour14",text)
   })
 
-  $("#hour-APPLYNUM-a").val(localStorage.getItem("hourAPPLYNUM"))
+  $("#hour-14-a").val(localStorage.getItem("hour14"))
+
+  $(".saveBtn").on("click",function(){
+    let text=$("#hour-15-a").val()
+    localStorage.setItem("hour15",text)
+  })
+
+  $("#hour-15-a").val(localStorage.getItem("hour15"))
+
+  $(".saveBtn").on("click",function(){
+    let text=$("#hour-16-a").val()
+    localStorage.setItem("hour16",text)
+  })
+
+  $("#hour-16-a").val(localStorage.getItem("hour16"))
+
+  $(".saveBtn").on("click",function(){
+    let text=$("#hour-17-a").val()
+    localStorage.setItem("hour17",text)
+  })
+
+  $("#hour-17-a").val(localStorage.getItem("hour17"))
+
+  $(".saveBtn").on("click",function(){
+    let text=$("#hour-18-a").val()
+    localStorage.setItem("hour18",text)
+  })
+
+  $("#hour-18-a").val(localStorage.getItem("hour18"))
+
+ 
+   $(".saveBtn").on("click",function(){
+    let text=$("#hour-19-a").val()
+    localStorage.setItem("hour19",text)
+  })
+
+  $("#hour-19-a").val(localStorage.getItem("hour19"))
+
+  $(".saveBtn").on("click",function(){
+    let text=$("#hour-20-a").val()
+    localStorage.setItem("hour20",text)
+  })
+
+  $("#hour-20-a").val(localStorage.getItem("hour20"))
+
+  $(".saveBtn").on("click",function(){
+    let text=$("#hour-21-a").val()
+    localStorage.setItem("hour21",text)
+  })
+
+  $("#hour-21-a").val(localStorage.getItem("hour21"))
+
+ 
+
+
 
 
 
