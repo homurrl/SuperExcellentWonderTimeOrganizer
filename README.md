@@ -1,3 +1,42 @@
+In this challenge I was tasked with creating a responsive organiser which has an interface which allows the user to input data into time blocks. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 05 Third-Party APIs: Work Day Scheduler
 
 ## Your Task
