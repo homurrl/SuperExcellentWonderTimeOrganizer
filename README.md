@@ -1,5 +1,6 @@
 In this challenge I was tasked with creating a responsive organiser which has an interface which allows the user to input data into time blocks. 
 
+<img width="1608" alt="Screen Shot 2023-05-12 at 1 54 33 pm" src="https://github.com/homurrl/SuperExcellentWonderTimeOrganizer/assets/117972653/cdddc9b9-25aa-40de-83b8-b9f2b478405b">
 
 
 
