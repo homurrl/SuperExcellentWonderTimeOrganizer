@@ -39,11 +39,11 @@ $(function () {
 
 
   $(".saveBtn").on("click",function(){
-    let text=$("#hour-APPLYNUM-a").val()
-    localStorage.setItem("hourAPPLYNUMB",text)
+    let text=$("#hour-12").val()
+    localStorage.setItem("hour12",text)
   })
 
-  $("#hour-APPLYNUM-a").val(localStorage.getItem("hourAPPLYNUM"))
+  $("#hour-12").val(localStorage.getItem("hour12"))
 
 
   $(".saveBtn").on("click",function(){
